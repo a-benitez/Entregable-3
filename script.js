@@ -39,7 +39,7 @@ while(clase != "salir"){
             alert("Error, intentá nuevamente");
             break;
     }
-    //Se vuelve a pedir el dato para que vuelva a evaluar si es != Ninguna (por fuera del switch ya que pertenece al while)
+    //Se vuelve a pedir el dato para que vuelva a evaluar si es != salir (por fuera del switch ya que pertenece al while)
     clase = prompt("Ingrese la clase a la que quiere asistir ");
     clase = clase.toLowerCase();
 }
