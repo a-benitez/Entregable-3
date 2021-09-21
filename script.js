@@ -4,7 +4,7 @@
 let clase = prompt("Ingrese la clase a la que quiere asistir ");
 clase = clase.toLowerCase();
 
-//La palabra "Ninguna" corta el bucle
+//La palabra "salir" corta el bucle
 
 while(clase != "salir"){
     switch (clase){
